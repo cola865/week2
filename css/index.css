@@ -9,6 +9,9 @@
 .gap-16{
     gap: 16px;
 }
+/* img{
+    vertical-align: top;
+} */
 a:hover{  
     opacity: 0.5;
 }
@@ -16,6 +19,7 @@ a:hover{
     height: 958px;
     background-image: url("../img/banner.png");
     background-size: cover;
+    margin-bottom: 56px;
 }
 .header .container{
     width: 304px;
@@ -38,3 +42,39 @@ a:hover{
     line-height: 1.5;
     margin-bottom: 40px;
 }
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 64px;
+    line-height: 68px;
+    margin-bottom: 40px;
+}
+.about img{
+    display: block;
+    margin-left:auto ;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+.profile-list{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0 auto;
+    width: 412px;
+    border-bottom: 1px solid black;
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+}
+.profile-list li:first-child{
+    margin-bottom: 4px;
+}
+.profile-list li:nth-child(even){
+    margin-bottom: 8px;
+}
+.experience-list{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
